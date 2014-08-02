@@ -30,7 +30,7 @@ def ipa(text): # Generates narrow transcription of Tamil texts
 
     text=" " + text + " "
 #    text = """ %s """ % text
-    print text 
+
     # Move Punctuations  
     repl = lambda m: " " + m.group(1) + " "        
     text = re.sub("([\\,\\\,\.\!\?\"\'\"\(\)])", repl, text)
@@ -52,7 +52,7 @@ def ipa(text): # Generates narrow transcription of Tamil texts
     text = text.replace("h","ɦ")
     text = text.replace("S","ʂ")
     text = text.replace("srI","ʂrI")
-    print text 
+
     # Mey 
 
     # Vallinam 
@@ -65,7 +65,7 @@ def ipa(text): # Generates narrow transcription of Tamil texts
     text = re.sub(r"(?<=[GJnVmN])p","b",text) #5.3.1.6 ii voiced bilabial plosive
 
     # 5.3.1.6 i no replacement 
-    print text 
+
     # ta 
 
     text = re.sub(r"(?<=[aAiIuUeEoOyrlvZL])t(?=[aAiIuUeEoO])","ð",text) # 5.3.1.5 iii Voiced dental Fricative
@@ -355,9 +355,9 @@ def ipa(text): # Generates narrow transcription of Tamil texts
     #ɨɭ (i- + Refelex -> <u> <Retroflex>
 
     text = text.lstrip()
-    print text 
-    return text
 
+    return text
+# end of def ipa(text):
 
 
 # Converts a narrow transcription to a broad transcription 
@@ -399,7 +399,5 @@ def broad(text):
     text = text.replace("ʌ","ə")
 
     return text
- 
-
-
+# end of def broad(text):
 

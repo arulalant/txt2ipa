@@ -94,8 +94,5 @@ def tam2lat(text):
     text = text.replace("W","au")
 
     return text
-
-
-
-
+# end of def tam2lat(text):
 
