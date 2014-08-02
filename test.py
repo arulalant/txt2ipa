@@ -5,9 +5,7 @@ from txt2ipa.ipaconvert import ipa, broad
 from txt2ipa.transliteration import tam2lat
 
 
-#text = 'வணக்கம்'
-text = 'முனியம்மா'
-#text = 'muniyamma'
+text = 'வணக்கம் தமிழகம் '
 
 
 t1 = tam2lat(text)
