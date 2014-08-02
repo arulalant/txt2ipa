@@ -12,9 +12,14 @@ Right now it will works for only Tamil Unicode strings.
 Mile Karkal (MileStones)
 ========================
 
-  * Add other Indian Languages for ipa converter
-  * Any language to any language phonetic alphabet converter 
-  
+ * Add other Indian Languages for ipa converter
+ * Many to many language phonetic alphabet converter
+
+  Releases
+  --------
+  * [v0.1](https://github.com/arulalant/txt2ipa/releases/tag/v0.1) `agaram` `alpha`
+
+
 Credits
 =======
 
