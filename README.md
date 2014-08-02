@@ -1,7 +1,7 @@
 txt2ipa
 =======
 
-Unicode text to ipa convertor 
+Unicode text to ipa converter 
 
 This script will convert any long unicode sentences (many word strings) into International Phonetic Alphabet (IPA) 
 
@@ -12,8 +12,8 @@ Right now it will works for only Tamil Unicode strings.
 Mile Karkal (MileStones)
 ========================
 
-  * Add other Indian Languages for ipa convertor
-  * Any language to any language phonetic alphabet convertor 
+  * Add other Indian Languages for ipa converter
+  * Any language to any language phonetic alphabet converter 
   
 Credits
 =======
