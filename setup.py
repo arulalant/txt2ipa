@@ -7,8 +7,8 @@
 from distutils.core import setup
 from codecs import open
 
-setup(name='txt2unicode',
-      version='v3.0',
+setup(name='txt2ipa',
+      version='v2.0',
       description='Tamil language text encode to unicode converters and vice versa tool',
       author='Arulalan.T',
       author_email='arulalant@gmail.com',
