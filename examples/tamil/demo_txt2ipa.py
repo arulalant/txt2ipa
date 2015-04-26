@@ -3,11 +3,11 @@
 
 # (C) 2014 Arulalan.T <arulalant@gmail.com>
 # 
-# This file is part of 'open-tamil/txt2ipa' package examples
+# This file is part of 'txt2ipa' package examples
 # 
 
 
-from txt2ipa import txt2ipa
+from tamil2ipa import txt2ipa
 
 text = 'வணக்கம் தமிழகம் '
 
