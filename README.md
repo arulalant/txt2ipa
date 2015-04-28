@@ -17,7 +17,7 @@ Mile Karkal (MileStones)
 
   Releases
   --------
-  * [v0.2] `aakaara` `beta`
+  * [v0.2](https://github.com/arulalant/txt2ipa/releases/tag/v0.2) `aakaara` `beta`
   * [v0.1](https://github.com/arulalant/txt2ipa/releases/tag/v0.1) `agaram` `alpha`
 
 
