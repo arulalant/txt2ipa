@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 # 
 # (C) 2014-2015 Arulalan.T
-# txt2unicode project
+# txt2ipa project
 
 from distutils.core import setup
 from codecs import open
 
 setup(name='txt2ipa',
-      version='v2.0',
-      description='Tamil language text encode to unicode converters and vice versa tool',
+      version='v0.2',
+      description='Tamil, Kannda language text unicode to International Phonetic Alphabet (IPA) converters',
       author='Arulalan.T',
       author_email='arulalant@gmail.com',
       url='https://github.com/arulalant/txt2ipa',
