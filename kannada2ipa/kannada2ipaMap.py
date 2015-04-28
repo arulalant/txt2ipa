@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#
+#
+# Author : Arulalan.T <arulalant@gmail.com>
+# Thanks to Mr. Govardhan Balaji <govigov03@gmail.com> 
+# who contributed to create kannada2ipaMap
+#
+# 
 from orddic import OrderedDict
 
 
